@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="Java 8장 실습 8-5~8">
+    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="Java 8장~9장 9-3 실습">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayListTest.executor": "Run",
     "Application.DrinkTest.executor": "Run",
     "Application.MainAccount.executor": "Run",
     "Application.MainAvenger.executor": "Run",
@@ -54,6 +55,7 @@
     "Application.MainMyMath.executor": "Run",
     "Application.MainRandom.executor": "Run",
     "Application.MainStudent.executor": "Run",
+    "Application.RPGGameTest.executor": "Run",
     "Application.practice.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -98,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainMyMath" />
         <item itemvalue="Application.MainAvenger" />
+        <item itemvalue="Application.MainMyMath" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +123,10 @@
       <updated>1726101372219</updated>
       <workItem from="1726101373201" duration="7588000" />
       <workItem from="1726705584225" duration="7830000" />
-      <workItem from="1727309042092" duration="8208000" />
+      <workItem from="1727309042092" duration="9748000" />
+      <workItem from="1727320847778" duration="3000" />
+      <workItem from="1727328407375" duration="120000" />
+      <workItem from="1728518707055" duration="6149000" />
     </task>
     <task id="LOCAL-00001" summary="0912">
       <option name="closed" value="true" />
@@ -139,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726714175468</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Java 8장~9장 9-3 실습">
+      <option name="closed" value="true" />
+      <created>1727318569721</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727318569721</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0912" />
     <MESSAGE value="Java 8장 실습 8-5~8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java 8장 실습 8-5~8" />
+    <MESSAGE value="Java 8장~9장 9-3 실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 8장~9장 9-3 실습" />
   </component>
 </project>
