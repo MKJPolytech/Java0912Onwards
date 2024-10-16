@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="Java 8장~9장 9-3 실습">
+    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="Java 10장 상속 1절 상속의 개요">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java0912Onwards.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java0912Onwards.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
     "Application.MainAvenger.executor": "Run",
     "Application.MainDrink.executor": "Run",
     "Application.MainHero.executor": "Run",
+    "Application.MainJDBCTest.executor": "Run",
     "Application.MainMonster.executor": "Run",
     "Application.MainMyMath.executor": "Run",
     "Application.MainRandom.executor": "Run",
@@ -62,12 +65,16 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Program Files/jdbc/ojdbc11.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/MKJTHURproject/JAVA/Java0912Onwards/Java0912Onwards/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -126,7 +133,8 @@
       <workItem from="1727309042092" duration="9748000" />
       <workItem from="1727320847778" duration="3000" />
       <workItem from="1727328407375" duration="120000" />
-      <workItem from="1728518707055" duration="6149000" />
+      <workItem from="1728518707055" duration="7101000" />
+      <workItem from="1729042183917" duration="3938000" />
     </task>
     <task id="LOCAL-00001" summary="0912">
       <option name="closed" value="true" />
@@ -152,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727318569721</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Java 10장 상속 1절 상속의 개요">
+      <option name="closed" value="true" />
+      <created>1728528466784</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728528466784</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +178,7 @@
     <MESSAGE value="0912" />
     <MESSAGE value="Java 8장 실습 8-5~8" />
     <MESSAGE value="Java 8장~9장 9-3 실습" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java 8장~9장 9-3 실습" />
+    <MESSAGE value="Java 10장 상속 1절 상속의 개요" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 10장 상속 1절 상속의 개요" />
   </component>
 </project>
