@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="Java 10장 상속 1절 상속의 개요">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc11.xml" afterDir="false" />
+    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="Oracle Database 자바랑 연결">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java0912Onwards.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java0912Onwards.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
     "Application.MainMonster.executor": "Run",
     "Application.MainMyMath.executor": "Run",
     "Application.MainRandom.executor": "Run",
+    "Application.MainShape.executor": "Run",
     "Application.MainStudent.executor": "Run",
     "Application.RPGGameTest.executor": "Run",
     "Application.practice.executor": "Run",
@@ -134,7 +133,9 @@
       <workItem from="1727320847778" duration="3000" />
       <workItem from="1727328407375" duration="120000" />
       <workItem from="1728518707055" duration="7101000" />
-      <workItem from="1729042183917" duration="3938000" />
+      <workItem from="1729042183917" duration="4077000" />
+      <workItem from="1729123173785" duration="90000" />
+      <workItem from="1729123272386" duration="2372000" />
     </task>
     <task id="LOCAL-00001" summary="0912">
       <option name="closed" value="true" />
@@ -168,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728528466784</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Oracle Database 자바랑 연결">
+      <option name="closed" value="true" />
+      <created>1729046282757</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729046282757</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +188,8 @@
     <MESSAGE value="Java 8장 실습 8-5~8" />
     <MESSAGE value="Java 8장~9장 9-3 실습" />
     <MESSAGE value="Java 10장 상속 1절 상속의 개요" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java 10장 상속 1절 상속의 개요" />
+    <MESSAGE value="Oracle 자바랑 연결" />
+    <MESSAGE value="Oracle Database 자바랑 연결" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oracle Database 자바랑 연결" />
   </component>
 </project>
