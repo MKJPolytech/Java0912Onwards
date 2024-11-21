@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="10장 상속, 추상클래스, this, super, protected">
+    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="11장 인터페이스(개념, 상수 추상메소드, default메소드, static 메소드)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp11/ex11_5/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp11/ex11_5_6/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp11/ex11_5/MainVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp11/ex11_5_6/MainVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp11/ex11_5/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp11/ex11_5_6/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp11/ex11_5/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp11/ex11_5_6/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +58,13 @@
     "Application.MainArcher.executor": "Run",
     "Application.MainAvenger.executor": "Run",
     "Application.MainChild.executor": "Run",
+    "Application.MainConstant.executor": "Run",
     "Application.MainConstructor.executor": "Run",
     "Application.MainController.executor": "Run",
     "Application.MainDrink.executor": "Run",
+    "Application.MainException12_1.executor": "Run",
+    "Application.MainException12_3.executor": "Run",
+    "Application.MainGameSimulation.executor": "Run",
     "Application.MainHero.executor": "Run",
     "Application.MainIphone.executor": "Run",
     "Application.MainItem.executor": "Run",
@@ -186,7 +194,8 @@
       <workItem from="1730851505823" duration="3379000" />
       <workItem from="1730937968942" duration="9170000" />
       <workItem from="1731456780105" duration="3265000" />
-      <workItem from="1731544137588" duration="8082000" />
+      <workItem from="1731544137588" duration="8115000" />
+      <workItem from="1732147114897" duration="8972000" />
     </task>
     <task id="LOCAL-00001" summary="0912">
       <option name="closed" value="true" />
@@ -292,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730947602805</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="11장 인터페이스(개념, 상수 추상메소드, default메소드, static 메소드)">
+      <option name="closed" value="true" />
+      <created>1731552439501</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731552439501</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +330,7 @@
     <MESSAGE value="Assignment Upload" />
     <MESSAGE value="10장 상속, 메소드 오버라이딩, 생성자호출 순서와 실행순서, 추상클래스개념" />
     <MESSAGE value="10장 상속, 추상클래스, this, super, protected" />
-    <option name="LAST_COMMIT_MESSAGE" value="10장 상속, 추상클래스, this, super, protected" />
+    <MESSAGE value="11장 인터페이스(개념, 상수 추상메소드, default메소드, static 메소드)" />
+    <option name="LAST_COMMIT_MESSAGE" value="11장 인터페이스(개념, 상수 추상메소드, default메소드, static 메소드)" />
   </component>
 </project>
