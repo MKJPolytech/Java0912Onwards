@@ -1,4 +1,4 @@
-package chp12;
+package chp12.ex12_3;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
