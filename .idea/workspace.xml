@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="12장 예외 발생 이유 및 처리방법1 (2024-11-21)">
+    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="12장 예외의 종류, Throw, Throws, 파일입출력">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp12/MainException12_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp12/ex12_3/MainException12_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc3/control/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/control/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Program Files/jdbc/ojdbc11.jar",
+    "last_opened_file_path": "D:/MKJTHURproject/JAVA/Java0912Onwards/Java0912Onwards/src/jdbc3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,10 +98,14 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "proofread",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MKJTHURproject\JAVA\Java0912Onwards\Java0912Onwards\src\jdbc3" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="chp12.ex12_7" />
     </key>
@@ -171,8 +175,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
       </set>
     </attachedChunks>
   </component>
@@ -203,7 +207,9 @@
       <workItem from="1731456780105" duration="3265000" />
       <workItem from="1731544137588" duration="8115000" />
       <workItem from="1732147114897" duration="9046000" />
-      <workItem from="1732751250255" duration="9051000" />
+      <workItem from="1732751250255" duration="10023000" />
+      <workItem from="1732859678456" duration="2124000" />
+      <workItem from="1732862216520" duration="2048000" />
     </task>
     <task id="LOCAL-00001" summary="0912">
       <option name="closed" value="true" />
@@ -325,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732157468704</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="12장 예외의 종류, Throw, Throws, 파일입출력">
+      <option name="closed" value="true" />
+      <created>1732762115276</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732762115276</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +362,11 @@
     <MESSAGE value="10장 상속, 추상클래스, this, super, protected" />
     <MESSAGE value="11장 인터페이스(개념, 상수 추상메소드, default메소드, static 메소드)" />
     <MESSAGE value="12장 예외 발생 이유 및 처리방법1 (2024-11-21)" />
-    <option name="LAST_COMMIT_MESSAGE" value="12장 예외 발생 이유 및 처리방법1 (2024-11-21)" />
+    <MESSAGE value="12장 예외의 종류, Throw, Throws, 파일입출력" />
+    <option name="LAST_COMMIT_MESSAGE" value="12장 예외의 종류, Throw, Throws, 파일입출력" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
