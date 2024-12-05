@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="12장 예외의 종류, Throw, Throws, 파일입출력">
+    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="데이터베이스 보충(2024/11/29)(제품테이블)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc3/control/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc3/control/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,6 @@
   <component name="ProjectId" id="2lwqE9shE5ic4PczYaqAC3i9cX9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -55,6 +53,7 @@
     "Application.MainArcher.executor": "Run",
     "Application.MainAvenger.executor": "Run",
     "Application.MainBankAccount.executor": "Run",
+    "Application.MainBankAccountReader.executor": "Run",
     "Application.MainChild.executor": "Run",
     "Application.MainConstant.executor": "Run",
     "Application.MainConstructor.executor": "Run",
@@ -62,6 +61,7 @@
     "Application.MainDrink.executor": "Run",
     "Application.MainException12_1.executor": "Run",
     "Application.MainException12_3.executor": "Run",
+    "Application.MainFrame.executor": "Run",
     "Application.MainGameSimulation.executor": "Run",
     "Application.MainHero.executor": "Run",
     "Application.MainInterrupted.executor": "Run",
@@ -209,7 +209,8 @@
       <workItem from="1732147114897" duration="9046000" />
       <workItem from="1732751250255" duration="10023000" />
       <workItem from="1732859678456" duration="2124000" />
-      <workItem from="1732862216520" duration="2048000" />
+      <workItem from="1732862216520" duration="2187000" />
+      <workItem from="1733356831733" duration="8732000" />
     </task>
     <task id="LOCAL-00001" summary="0912">
       <option name="closed" value="true" />
@@ -339,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732762115276</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="데이터베이스 보충(2024/11/29)(제품테이블)">
+      <option name="closed" value="true" />
+      <created>1732864324826</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732864324826</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +372,8 @@
     <MESSAGE value="11장 인터페이스(개념, 상수 추상메소드, default메소드, static 메소드)" />
     <MESSAGE value="12장 예외 발생 이유 및 처리방법1 (2024-11-21)" />
     <MESSAGE value="12장 예외의 종류, Throw, Throws, 파일입출력" />
-    <option name="LAST_COMMIT_MESSAGE" value="12장 예외의 종류, Throw, Throws, 파일입출력" />
+    <MESSAGE value="데이터베이스 보충(2024/11/29)(제품테이블)" />
+    <option name="LAST_COMMIT_MESSAGE" value="데이터베이스 보충(2024/11/29)(제품테이블)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
