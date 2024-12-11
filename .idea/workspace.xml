@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="데이터베이스 보충(2024/11/29)(제품테이블)">
+    <list default="true" id="9d0dc43d-8350-4fb4-9429-386c0c7506ad" name="Changes" comment="JAVA기초(2024/12/05) 주문검색프로그램 UI 작성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_gui/controller/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_gui/controller/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_gui/view/OrderInfoView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_gui/view/OrderInfoView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +86,12 @@
     "Application.chp10.ex10_8.MainController.executor": "Run",
     "Application.practice.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/MKJTHURproject/JAVA/Java0912Onwards/Java0912Onwards/src/jdbc3",
+    "last_opened_file_path": "D:/MKJTHURproject/react/reactproject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -107,6 +110,7 @@
       <recent name="D:\MKJTHURproject\JAVA\Java0912Onwards\Java0912Onwards\src\jdbc3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_gui" />
       <recent name="chp12.ex12_7" />
     </key>
   </component>
@@ -175,8 +179,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
       </set>
     </attachedChunks>
   </component>
@@ -210,7 +214,8 @@
       <workItem from="1732751250255" duration="10023000" />
       <workItem from="1732859678456" duration="2124000" />
       <workItem from="1732862216520" duration="2187000" />
-      <workItem from="1733356831733" duration="8732000" />
+      <workItem from="1733356831733" duration="9499000" />
+      <workItem from="1733875556840" duration="9706000" />
     </task>
     <task id="LOCAL-00001" summary="0912">
       <option name="closed" value="true" />
@@ -348,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732864324826</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="JAVA기초(2024/12/05) 주문검색프로그램 UI 작성">
+      <option name="closed" value="true" />
+      <created>1733367502896</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733367502896</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +386,8 @@
     <MESSAGE value="12장 예외 발생 이유 및 처리방법1 (2024-11-21)" />
     <MESSAGE value="12장 예외의 종류, Throw, Throws, 파일입출력" />
     <MESSAGE value="데이터베이스 보충(2024/11/29)(제품테이블)" />
-    <option name="LAST_COMMIT_MESSAGE" value="데이터베이스 보충(2024/11/29)(제품테이블)" />
+    <MESSAGE value="JAVA기초(2024/12/05) 주문검색프로그램 UI 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="JAVA기초(2024/12/05) 주문검색프로그램 UI 작성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,13 +1,21 @@
 package _gui.view;
 
+import _gui.entity.OrderEntity;
+import _gui.repository.OrderRepository;
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumn;
+import javax.swing.table.TableColumnModel;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.util.ArrayList;
 
 public class OrderInfoView extends JPanel {
 
     JPanel panN = new JPanel(new GridLayout(2, 1)); //동서남북 기준 북쪽
-    JPanel panC = new JPanel();// 중앙(Center)
+    JPanel panC = new JPanel(new BorderLayout(5, 28));// 중앙(Center)
 
     JPanel pan1 = new JPanel();
     JPanel pan2 = new JPanel();
@@ -28,6 +36,7 @@ public class OrderInfoView extends JPanel {
         addPan1();
         addPan2();
         addTable();
+        initList("");
     }
     
     public void addPan1(){
@@ -38,6 +47,12 @@ public class OrderInfoView extends JPanel {
     public void addPan2(){
         JLabel lblSearch = new JLabel("검색어");
         JButton btnSearch = new JButton("검색");
+        btnSearch.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+            }
+        });
         pan2.add(lblSearch);
         pan2.add(tfSearch);
         pan2.add(btnSearch);
@@ -52,7 +67,31 @@ public class OrderInfoView extends JPanel {
         };
 
         table = new JTable(tableModel);
+        TableColumnModel columnModel = table.getColumnModel();
+        columnModel.getColumn(0).setPreferredWidth(70);
+        columnModel.getColumn(1).setPreferredWidth(100);
+        columnModel.getColumn(2).setPreferredWidth(180);
+        columnModel.getColumn(3).setPreferredWidth(50);
+        columnModel.getColumn(4).setPreferredWidth(200);
+        columnModel.getColumn(5).setPreferredWidth(100);
+
         JScrollPane scrollPane = new JScrollPane(table);
         panC.add(scrollPane);
+    }
+
+    public void initList(String SearchWord){
+        OrderRepository orderRepository = new OrderRepository();
+        ArrayList<OrderEntity> orderList = orderRepository.getOrderList(SearchWord);
+        tableModel.setRowCount(orderList.size());
+        int i = 0;
+        for (OrderEntity orderEntity : orderList) {
+            tableModel.setValueAt(orderEntity.getOrderNum(), i, 0);
+            tableModel.setValueAt(orderEntity.getCustomerName(), i, 1);
+            tableModel.setValueAt(orderEntity.getProductName(), i, 2);
+            tableModel.setValueAt(orderEntity.getAmount(), i, 3);
+            tableModel.setValueAt(orderEntity.getDestination(), i, 4);
+            tableModel.setValueAt(orderEntity.getOrderDate(), i, 5);
+            i++;
+        }
     }
 }
